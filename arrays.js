@@ -1,8 +1,8 @@
-const aluno = ["Claudenir", "Beatriz"];
+const aluno = ["Claudenir", "Beatriz", "Blaw", "Talia"];
 const aluno2 = aluno.map(function(itemAtual){
     itemAtual = {
         nome: itemAtual,
-        nota: 9
+        nota: Math.floor(Math.random() * 10 + 1)
     }
     return itemAtual;
 })
